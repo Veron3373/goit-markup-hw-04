@@ -190,8 +190,8 @@ body {
 margin: 0;
 padding: 0;
 }
-.contacts .link:hover >.header-cont,
-.contacts .link:focus >.header-cont{
+.contacts .link:hover ,
+.contacts .link:focus {
   fill: var(--accent-color);
 }
 
@@ -201,7 +201,7 @@ padding: 0;
 }
 
 .header-cont{
-  fill:var(--accent-fill);
+  fill:currentColor;
   margin-right: 10px;
 }
 

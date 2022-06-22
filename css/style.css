@@ -43,6 +43,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  width: 1600px;
+    margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -169,7 +172,9 @@ body {
 }
 
 .contacts .link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -269,8 +274,7 @@ padding: 0;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  /* width: 120;
-  height: 270; */
+
   background-color: #F5F4FA;
   border-radius: 4px;
 }
@@ -320,7 +324,6 @@ margin-bottom: 50px;
 .card-list-item {
   flex-basis: calc((100% - var(--indent) *  var(--items-work)) / var(--items-work));
   margin: calc(var(--indent) / 2);
-    /* width: 370px; */
 }
 
 img {
@@ -522,11 +525,7 @@ margin-right: 30px;
   width: 20px;
 
 }
-/* .footer-social{
-     align-items: center;
-      background-position: center;
-} */
-/*! xvccccccccccccccccccccccccccccccccccccc */
+
 /* Портфолио */
 .galerry>.container>.list {
   display: flex;

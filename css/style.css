@@ -584,8 +584,8 @@ margin-right: 30px;
   line-height: 1.88;
 }
 
-.galerry-card:hover,
-.galerry-card:focus{
+.galerry .galerry-card > .link:hover,
+.galerry .galerry-card > .link:focus{
   display: block;
   box-shadow: var(--galerry-card-hover-box-shadow)
 }
